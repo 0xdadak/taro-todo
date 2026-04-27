@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .page-index {
+    @apply min-h-screen bg-gray-50;
+  }
+}

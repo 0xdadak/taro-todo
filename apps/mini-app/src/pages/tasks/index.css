@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .page-tasks {
+    @apply min-h-screen bg-gray-50;
+  }
+}
