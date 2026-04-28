@@ -8,6 +8,7 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "dev:backend": "cd apps/backend && bun dev",
     "lint": "turbo lint",
     "test": "turbo test",
     "clean": "turbo clean && rm -rf node_modules"
