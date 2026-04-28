@@ -82,8 +82,8 @@ export const usersRoutes = new Elysia({ prefix: '/users' })
     },
     {
       body: t.Object({
-        nickname: t.Optional(t.String().max(100)),
-        avatarUrl: t.Optional(t.String().max(500)),
+        nickname: t.Optional(t.String({ maxLength: 100 })),
+        avatarUrl: t.Optional(t.String({ maxLength: 500 })),
       }),
     }
   );
